@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1221" />
+    <meta name="description" content="Webエンジニアを目指すジョン・アンジェロ・ビタナのポートフォリオ。React、Node.js、Express、MongoDBを用いた制作実績と職務経歴を紹介します。" />
+    <title>ジャン・アンジェロ・ビタナ | Webエンジニア ポートフォリオ</title>
+    <link rel="icon" type="image/jpeg" href="images/headshot.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">本文へ移動</a>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="John Angelo Bitana portfolio home">
+          <span class="brand-symbol">JB<span>.</span></span>
+          <span class="brand-subtitle">PORTFOLIO</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about" data-i18n="navAbout">自己紹介</a>
+          <a href="#experience" data-i18n="navExperience">職務経歴</a>
+          <a href="#skills" data-i18n="navSkills">スキル</a>
+          <a href="#projects" data-i18n="navProjects">制作実績</a>
+          <a href="#contact" data-i18n="navContact">お問い合わせ</a>
+        </div>
+        <div class="language-switch" role="group" aria-label="Language / 言語">
+          <button type="button" data-language="ja" aria-pressed="true">日本語</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero container" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="availability-dot"></span><span data-i18n="heroEyebrow">Webエンジニアへのキャリアチェンジに挑戦中</span></p>
+          <h1 id="hero-heading"><span data-i18n="heroTitle1">現場で培った課題解決力を、</span><br /><span class="gradient-text" data-i18n="heroTitle2">Web開発へ。</span></h1>
+          <p class="hero-name">John Angelo Bitana <span data-i18n="heroName">（ジョン・アンジェロ・ビタナ）</span></p>
+          <p class="hero-lead" data-i18n="heroLead">日本の製造業とフィリピンでの業務経験を生かしながら、使いやすく信頼性の高いWebアプリケーションを開発できるエンジニアを目指しています。React、Node.jsを中心に、個人開発とチーム開発を通じて学習を続けています。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-code" aria-hidden="true"></i><span data-i18n="heroProjects">制作実績を見る</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="btn btn-secondary" href="https://github.com/leeyoonhun02-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          </div>
+          <p class="hero-footnote" data-i18n="heroNote">希望職種：Webエンジニア／フロントエンドエンジニア</p>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <span class="portrait-initials" aria-hidden="true">JB</span>
+            <img src="images/headshot.jpg" data-i18n-alt="portraitAlt" alt="ジョン・アンジェロ・ビタナの写真" onerror="this.style.display='none'" />
+          </div>
+          <div class="portrait-caption"><span class="caption-dot"></span><span data-i18n="portraitCaption">学習・制作・改善を継続しています</span></div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">01 / ABOUT</p>
+            <h2 id="about-title" data-i18n="aboutTitle">自己紹介</h2>
+            <p class="section-summary" data-i18n="aboutIntro">異業種での社会人経験と、Web開発で身につけた技術を掛け合わせて成長していきたいと考えています。</p>
+          </div>
+          <div class="about-layout">
+            <article class="about-story surface-card">
+              <h3 data-i18n="aboutStoryTitle">これまでの経験を、次の仕事に生かす</h3>
+              <p data-i18n="aboutP1">これまで、フィリピンでの業務プロセス関連の仕事と、日本の造船・自動車関連の現場業務に携わってきました。異なる環境でも、作業の正確さ、関係者との連携、課題を一つずつ解決する姿勢を大切にしてきました。</p>
+              <p data-i18n="aboutP2">Web開発ブートキャンプを修了し、JavaScript・React・Node.jsなどを使用したアプリケーション制作に取り組んでいます。個人開発のBudget Buddyと、チーム開発のPayNearを通して、画面設計からAPI連携、デバッグまで経験しました。</p>
+              <p data-i18n="aboutP3">今後は、利用者の視点とチームでの協力を大切にしながら、開発現場で着実に成長していきたいと考えています。</p>
+            </article>
+            <div class="strengths">
+              <article class="strength-card"><span class="strength-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></span><h3 data-i18n="strength1Title">課題解決力</h3><p data-i18n="strength1Text">現場で培った、原因を確認しながら正確に改善する姿勢。</p></article>
+              <article class="strength-card"><span class="strength-icon"><i class="fa-solid fa-people-group" aria-hidden="true"></i></span><h3 data-i18n="strength2Title">チームでの協働</h3><p data-i18n="strength2Text">異なる業務や環境で身につけた、情報共有と連携の大切さ。</p></article>
+              <article class="strength-card"><span class="strength-icon"><i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i></span><h3 data-i18n="strength3Title">継続的な学習</h3><p data-i18n="strength3Text">制作と改善を繰り返し、新しい技術の理解を深めています。</p></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container narrow-container">
+          <div class="section-heading">
+            <p class="section-kicker">02 / EXPERIENCE</p>
+            <h2 id="experience-title" data-i18n="experienceTitle">職務経歴</h2>
+            <p class="section-summary" data-i18n="experienceIntro">開発職としてはこれからの挑戦ですが、これまでの実務経験をチームへの貢献につなげたいと考えています。</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item"><div class="timeline-date" data-i18n="nissanDate">2025年4月 — 現在</div><div class="timeline-body"><h3 data-i18n="nissanTitle">自動車製造・金型補修／仕上げ</h3><p class="company" data-i18n="nissanCompany">日産自動車（派遣就業）</p><p data-i18n="nissanText">図面や作業手順に基づく金型部品の交換・寸法調整などを担当。品質と作業の正確さを重視しています。</p></div></article>
+            <article class="timeline-item"><div class="timeline-date" data-i18n="oshimaDate">2023年4月 — 2025年4月</div><div class="timeline-body"><h3 data-i18n="oshimaTitle">造船業・主機関据付</h3><p class="company" data-i18n="oshimaCompany">大島造船所</p><p data-i18n="oshimaText">船舶の主機関や関連機器の据付に従事。工程の確認とチーム内の連携を学びました。</p></div></article>
+            <article class="timeline-item"><div class="timeline-date" data-i18n="accentureDate">2021年5月 — 2023年3月</div><div class="timeline-body"><h3 data-i18n="accentureTitle">業務プロセス・経理関連業務</h3><p class="company" data-i18n="accentureCompany">Accenture Philippines</p><p data-i18n="accentureText">日本語を用いた請求書処理や支払関連業務、記録管理などに従事。業務フローを意識した正確な処理を経験しました。</p></div></article>
+          </div>
+          <p class="experience-note" data-i18n="experienceNote">※ 上記はITエンジニアとしての実務経歴ではなく、これまでの職務経験です。</p>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">03 / SKILLS</p>
+            <h2 id="skills-title" data-i18n="skillsTitle">技術スキル</h2>
+            <p class="section-summary" data-i18n="skillsIntro">学習や個人・チーム開発で使用した技術です。実務経験と混同しないよう、制作での使用経験として紹介しています。</p>
+          </div>
+          <div class="skills-groups">
+            <article class="surface-card skills-group"><div class="group-heading"><span class="group-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></span><h3>Frontend</h3></div><div class="chip-grid"><span class="skill-chip">HTML5</span><span class="skill-chip">CSS3</span><span class="skill-chip">JavaScript</span><span class="skill-chip">React</span><span class="skill-chip">React Router</span></div><p data-i18n="skillsFrontend">レスポンシブな画面の構築、フォームや状態管理、使いやすさを意識したUIの改善。</p></article>
+            <article class="surface-card skills-group"><div class="group-heading"><span class="group-icon"><i class="fa-solid fa-server" aria-hidden="true"></i></span><h3>Backend / Data</h3></div><div class="chip-grid"><span class="skill-chip">Node.js</span><span class="skill-chip">Express</span><span class="skill-chip">MongoDB</span><span class="skill-chip">Mongoose</span><span class="skill-chip">REST API</span><span class="skill-chip">JWT</span></div><p data-i18n="skillsBackend">APIの実装と連携、認証、データベースを使ったCRUD機能の開発。</p></article>
+            <article class="surface-card skills-group"><div class="group-heading"><span class="group-icon"><i class="fa-solid fa-code-branch" aria-hidden="true"></i></span><h3>Tools / Workflow</h3></div><div class="chip-grid"><span class="skill-chip">Git</span><span class="skill-chip">GitHub</span><span class="skill-chip">GitLab</span><span class="skill-chip">Postman</span><span class="skill-chip">Vercel</span><span class="skill-chip">Render</span></div><p data-i18n="skillsTools">バージョン管理、APIテスト、開発・デプロイの基本的なワークフロー。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">04 / PROJECTS</p>
+            <h2 id="projects-title" data-i18n="projectsTitle">制作実績</h2>
+            <p class="section-summary" data-i18n="projectsIntro">完成した画面だけでなく、何を担当し、どのような課題に向き合ったのかを紹介します。</p>
+          </div>
+          <div class="featured-projects">
+            <article class="project-card featured">
+              <div class="project-upper"><span class="project-number">01</span><span class="project-type" data-i18n="budgetType">個人開発 / Full-stack</span></div>
+              <div class="project-banner budget-banner" aria-hidden="true"><span class="mock-icon">📊</span><span>Budget Buddy</span><small>PERSONAL FINANCE</small></div>
+              <h3>Budget Buddy</h3>
+              <p class="project-description" data-i18n="budgetDescription">収入・支出を記録し、家計の状況を可視化するフルスタックWebアプリケーションです。</p>
+              <dl class="project-facts">
+                <div><dt data-i18n="labelRole">担当</dt><dd data-i18n="budgetRole">画面設計からフロントエンド・バックエンド実装、デプロイまで</dd></div>
+                <div><dt data-i18n="labelFeatures">主な実装</dt><dd data-i18n="budgetFeatures">JWT認証、収支のCRUD、検索・フィルター、レポート表示、プロフィール管理、CSV出力</dd></div>
+                <div><dt data-i18n="labelChallenge">工夫・学び</dt><dd data-i18n="budgetChallenge">Axiosの共通APIクライアントとReact Contextで通信・状態管理を整理。RenderとVercelを連携して公開。</dd></div>
+              </dl>
+              <p class="project-stack">React · Node.js · Express · MongoDB · Axios</p>
+              <div class="project-actions">
+                <a class="btn btn-primary btn-small" href="https://budget-buddy-three-lemon.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="viewDemo">デモを見る</span><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                <a class="btn btn-secondary btn-small" href="https://github.com/leeyoonhun02-dev/Budget-Buddy" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-i18n="viewCode">コードを見る</span></a>
+              </div>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-upper"><span class="project-number">02</span><span class="project-type" data-i18n="paynearType">チーム開発 / Full-stack</span></div>
+              <div class="project-banner paynear-banner" aria-hidden="true"><span class="mock-icon">📍</span><span>PayNear</span><small>DISCOVER LOCAL PLACES</small></div>
+              <h3>PayNear</h3>
+              <p class="project-description" data-i18n="paynearDescription">ユーザーが条件に合う店舗を見つけるためのWebアプリケーション。チームでの役割分担やAPI連携を経験しました。</p>
+              <dl class="project-facts">
+                <div><dt data-i18n="labelRole">担当</dt><dd data-i18n="paynearRole">管理者画面とメッセージ機能を中心とした画面実装・連携</dd></div>
+                <div><dt data-i18n="labelFeatures">主な実装</dt><dd data-i18n="paynearFeatures">React画面、ルーティング、メッセージ表示と送信機能、ロール別の画面制御</dd></div>
+                <div><dt data-i18n="labelChallenge">工夫・学び</dt><dd data-i18n="paynearChallenge">他メンバーと仕様を確認しながら実装を進め、認証・権限やAPI連携の課題を調整。</dd></div>
+              </dl>
+              <p class="project-stack">React · Express · MongoDB · REST API · GitLab</p>
+              <div class="project-actions">
+                <a class="btn btn-primary btn-small" href="https://paynear-dev.onrender.com/" target="_blank" rel="noopener noreferrer"><span data-i18n="viewDemo">デモを見る</span><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                <a class="btn btn-secondary btn-small" href="https://github.com/leeyoonhun02-dev/Paynear.git" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-i18n="viewCode">コードを見る</span></a>
+              </div>
+            </article>
+          </div>
+          <h3 class="other-projects-heading" data-i18n="otherProjects">その他の制作物</h3>
+          <div class="secondary-projects">
+            <article class="project-card compact"><div class="small-project-mark">日本語</div><div><h4>JP-Sensei</h4><p data-i18n="senseiDescription">日本語の会話、語彙、文法の学習を支援するチャットボット。API連携と操作性の改善に取り組みました。</p><p class="project-stack">JavaScript · API · Node.js · HTML · CSS</p><div class="project-actions"><a class="text-link" href="https://jp-sensei-beta.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="viewDemo">デモを見る</span> ↗</a><a class="text-link" href="https://github.com/leeyoonhun02-dev/JP-Sensei" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></article>
+            <article class="project-card compact"><div class="small-project-mark">JS</div><div><h4>Coffee Dispenser</h4><p data-i18n="coffeeDescription">選択処理、在庫管理、条件分岐などをJavaScriptで練習するコンソールアプリ。</p><p class="project-stack">JavaScript · Console app</p><div class="project-actions"><a class="text-link" href="https://github.com/leeyoonhun02-dev/Coffee-Dispenser.git" target="_blank" rel="noopener noreferrer"><span data-i18n="viewCode">コードを見る</span> ↗</a></div></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <p class="section-kicker">05 / CONTACT</p>
+          <h2 id="contact-title" data-i18n="contactTitle">お問い合わせ</h2>
+          <p data-i18n="contactIntro">Web開発に関する求人・面談のご連絡をお待ちしています。GitHubやLinkedInからもご確認いただけます。</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:leeyoonhun02@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span data-i18n="emailButton">メールを送る</span></a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/john-angelo-bitana-143379175/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          </div>
+          <p class="contact-footnote" data-i18n="resumeNote">履歴書・職務経歴書はご要望に応じてお送りします。</p>
+          <details class="contact-form-details">
+            <summary data-i18n="formToggle">お問い合わせフォームから送信する</summary>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="06147d25-6ccd-4cb7-98f3-1d825b105221" />
+              <input type="hidden" name="subject" value="Portfolio contact form" />
+              <input type="hidden" name="from_name" value="John Angelo Bitana Portfolio" />
+              <input class="honeypot" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <div class="contact-form-grid">
+                <label><span data-i18n="formName">お名前</span><input type="text" name="name" autocomplete="name" required /></label>
+                <label><span data-i18n="formEmail">メールアドレス</span><input type="email" name="email" autocomplete="email" required /></label>
+              </div>
+              <label><span data-i18n="formSubject">件名</span><input type="text" name="message_subject" required /></label>
+              <label><span data-i18n="formMessage">メッセージ</span><textarea name="message" rows="5" required></textarea></label>
+              <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i><span data-i18n="formSubmit">送信する</span></button>
+            </form>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container"><span>© <span id="year"></span> John Angelo Bitana</span><a href="#top" data-i18n="backToTop">ページ上部へ ↑</a></div></footer>
+    <script>
+      const translations = {
+        ja: {
+          title: "ジョン・アンジェロ・ビタナ | Webエンジニア ポートフォリオ",
+          description: "Webエンジニアを目指すジョン・アンジェロ・ビタナのポートフォリオ。React、Node.js、Express、MongoDBを用いた制作実績と職務経歴を紹介します。",
+          skip: "本文へ移動", navAbout: "自己紹介", navExperience: "職務経歴", navSkills: "スキル", navProjects: "制作実績", navContact: "お問い合わせ",
+          heroEyebrow: "Webエンジニアへのキャリアチェンジに挑戦中", heroTitle1: "現場で培った課題解決力を、", heroTitle2: "Web開発へ。", heroName: "（ジョン・アンジェロ・ビタナ）",
+          heroLead: "日本の製造業とフィリピンでの業務経験を生かしながら、使いやすく信頼性の高いWebアプリケーションを開発できるエンジニアを目指しています。React、Node.jsを中心に、個人開発とチーム開発を通じて学習を続けています。",
+          heroProjects: "制作実績を見る", heroNote: "希望職種：Webエンジニア／フロントエンドエンジニア", portraitAlt: "ジョン・アンジェロ・ビタナの写真", portraitCaption: "学習・制作・改善を継続しています",
+          aboutTitle: "自己紹介", aboutIntro: "異業種での社会人経験と、Web開発で身につけた技術を掛け合わせて成長していきたいと考えています。", aboutStoryTitle: "これまでの経験を、次の仕事に生かす",
+          aboutP1: "これまで、フィリピンでの業務プロセス関連の仕事と、日本の造船・自動車関連の現場業務に携わってきました。異なる環境でも、作業の正確さ、関係者との連携、課題を一つずつ解決する姿勢を大切にしてきました。",
+          aboutP2: "Web開発ブートキャンプを修了し、JavaScript・React・Node.jsなどを使用したアプリケーション制作に取り組んでいます。個人開発のBudget Buddyと、チーム開発のPayNearを通して、画面設計からAPI連携、デバッグまで経験しました。",
+          aboutP3: "今後は、利用者の視点とチームでの協力を大切にしながら、開発現場で着実に成長していきたいと考えています。",
+          strength1Title: "課題解決力", strength1Text: "現場で培った、原因を確認しながら正確に改善する姿勢。", strength2Title: "チームでの協働", strength2Text: "異なる業務や環境で身につけた、情報共有と連携の大切さ。", strength3Title: "継続的な学習", strength3Text: "制作と改善を繰り返し、新しい技術の理解を深めています。",
+          experienceTitle: "職務経歴", experienceIntro: "開発職としてはこれからの挑戦ですが、これまでの実務経験をチームへの貢献につなげたいと考えています。",
+          nissanDate: "2025年4月 — 現在", nissanTitle: "自動車製造・金型補修／仕上げ", nissanCompany: "日産自動車（派遣就業）", nissanText: "図面や作業手順に基づく金型部品の交換・寸法調整などを担当。品質と作業の正確さを重視しています。",
+          oshimaDate: "2023年4月 — 2025年4月", oshimaTitle: "造船業・主機関据付", oshimaCompany: "大島造船所", oshimaText: "船舶の主機関や関連機器の据付に従事。工程の確認とチーム内の連携を学びました。",
+          accentureDate: "2021年5月 — 2023年3月", accentureTitle: "業務プロセス・経理関連業務", accentureCompany: "Accenture Philippines", accentureText: "日本語を用いた請求書処理や支払関連業務、記録管理などに従事。業務フローを意識した正確な処理を経験しました。",
+          experienceNote: "※ 上記はITエンジニアとしての実務経歴ではなく、これまでの職務経験です。",
+          skillsTitle: "技術スキル", skillsIntro: "学習や個人・チーム開発で使用した技術です。実務経験と混同しないよう、制作での使用経験として紹介しています。",
+          skillsFrontend: "レスポンシブな画面の構築、フォームや状態管理、使いやすさを意識したUIの改善。", skillsBackend: "APIの実装と連携、認証、データベースを使ったCRUD機能の開発。", skillsTools: "バージョン管理、APIテスト、開発・デプロイの基本的なワークフロー。",
+          projectsTitle: "制作実績", projectsIntro: "完成した画面だけでなく、何を担当し、どのような課題に向き合ったのかを紹介します。",
+          budgetType: "個人開発 / Full-stack", budgetDescription: "収入・支出を記録し、家計の状況を可視化するフルスタックWebアプリケーションです。", budgetRole: "画面設計からフロントエンド・バックエンド実装、デプロイまで", budgetFeatures: "JWT認証、収支のCRUD、検索・フィルター、レポート表示、プロフィール管理、CSV出力", budgetChallenge: "Axiosの共通APIクライアントとReact Contextで通信・状態管理を整理。RenderとVercelを連携して公開。",
+          paynearType: "チーム開発 / Full-stack", paynearDescription: "ユーザーが条件に合う店舗を見つけるためのWebアプリケーション。チームでの役割分担やAPI連携を経験しました。", paynearRole: "管理者画面とメッセージ機能を中心とした画面実装・連携", paynearFeatures: "React画面、ルーティング、メッセージ表示と送信機能、ロール別の画面制御", paynearChallenge: "他メンバーと仕様を確認しながら実装を進め、認証・権限やAPI連携の課題を調整。",
+          labelRole: "担当", labelFeatures: "主な実装", labelChallenge: "工夫・学び", viewDemo: "デモを見る", viewCode: "コードを見る", otherProjects: "その他の制作物",
+          senseiDescription: "日本語の会話、語彙、文法の学習を支援するチャットボット。API連携と操作性の改善に取り組みました。", coffeeDescription: "選択処理、在庫管理、条件分岐などをJavaScriptで練習するコンソールアプリ。",
+          contactTitle: "お問い合わせ", contactIntro: "Web開発に関する求人・面談のご連絡をお待ちしています。GitHubやLinkedInからもご確認いただけます。", emailButton: "メールを送る", resumeNote: "履歴書・職務経歴書はご要望に応じてお送りします。", formToggle: "お問い合わせフォームから送信する", formName: "お名前", formEmail: "メールアドレス", formSubject: "件名", formMessage: "メッセージ", formSubmit: "送信する", backToTop: "ページ上部へ ↑"
+        },
+        en: {
+          title: "John Angelo Bitana | Web Developer Portfolio",
+          description: "Portfolio of John Angelo Bitana, an aspiring web developer with experience in React, Node.js, Express and MongoDB.",
+          skip: "Skip to content", navAbout: "About", navExperience: "Experience", navSkills: "Skills", navProjects: "Projects", navContact: "Contact",
+          heroEyebrow: "Transitioning into web development", heroTitle1: "Bringing real-world problem-solving", heroTitle2: "into web development.", heroName: "",
+          heroLead: "I'm pursuing a career in web development, drawing on professional experience in Japan's manufacturing industry and business operations in the Philippines. I build projects with React and Node.js, and continue improving through independent and team development.",
+          heroProjects: "Explore projects", heroNote: "Target roles: Web Developer / Frontend Developer", portraitAlt: "Portrait of John Angelo Bitana", portraitCaption: "Learning, building and improving",
+          aboutTitle: "About me", aboutIntro: "I'm combining transferable professional experience with new technical skills to grow as a developer.", aboutStoryTitle: "A practical background, a new direction",
+          aboutP1: "My background includes business-process work in the Philippines and technical roles in shipbuilding and automotive manufacturing in Japan. Across these environments, I learned the value of accuracy, communication, and solving problems methodically.",
+          aboutP2: "After completing a full-stack web development bootcamp, I began building applications with JavaScript, React, and Node.js. My independent project Budget Buddy and team project PayNear gave me experience in UI development, API integration, and debugging.",
+          aboutP3: "I'm looking for an opportunity to contribute to a development team, learn from others, and build reliable products with users in mind.",
+          strength1Title: "Problem-solving", strength1Text: "A methodical approach to identifying issues and improving processes.", strength2Title: "Collaboration", strength2Text: "Communication and coordination across different teams and workplaces.", strength3Title: "Continuous learning", strength3Text: "Practicing, shipping projects, and improving based on feedback.",
+          experienceTitle: "Professional background", experienceIntro: "My previous roles were outside software engineering, but developed habits I can bring to a technical team.",
+          nissanDate: "Apr 2025 — Present", nissanTitle: "Stamping die repair and finishing", nissanCompany: "Nissan Motor (dispatch assignment)", nissanText: "Part replacement and dimensional adjustments following technical instructions, with close attention to quality and accuracy.",
+          oshimaDate: "Apr 2023 — Apr 2025", oshimaTitle: "Ship engine installation", oshimaCompany: "Oshima Shipbuilding", oshimaText: "Installation of main engines and related equipment, working closely with others and following detailed procedures.",
+          accentureDate: "May 2021 — Mar 2023", accentureTitle: "Business process and finance operations", accentureCompany: "Accenture Philippines", accentureText: "Japanese-language invoice and payment processing, recordkeeping, and operational support with attention to workflows and accuracy.",
+          experienceNote: "Note: These roles represent my earlier professional work, not professional software engineering experience.",
+          skillsTitle: "Technical skills", skillsIntro: "Tools and technologies I've used in coursework, independent projects, and team development.",
+          skillsFrontend: "Responsive interfaces, form handling, state management and usability improvements.", skillsBackend: "Building and integrating APIs, authentication, and database-backed CRUD features.", skillsTools: "Version control, API testing, and basic development and deployment workflows.",
+          projectsTitle: "Selected projects", projectsIntro: "Beyond the finished UI, here's what I built, what I owned, and what I learned.",
+          budgetType: "Independent project / Full-stack", budgetDescription: "A personal finance app to track income and expenses and understand financial activity.", budgetRole: "UI, frontend and backend implementation, through deployment", budgetFeatures: "JWT authentication, transaction CRUD, search/filter, reporting, profiles, CSV export", budgetChallenge: "Centralized API requests with Axios and state with React Context; connected production frontend and backend through Vercel and Render.",
+          paynearType: "Team project / Full-stack", paynearDescription: "An app to help people discover nearby places that fit their needs, built through team collaboration and API integration.", paynearRole: "Admin interface and messaging-related UI/integration", paynearFeatures: "React pages, routing, message display and sending, role-aware navigation", paynearChallenge: "Coordinated implementation with teammates and addressed authentication, permission, and API integration issues.",
+          labelRole: "My role", labelFeatures: "Features", labelChallenge: "Challenges / lessons", viewDemo: "Live demo", viewCode: "Source code", otherProjects: "Other projects",
+          senseiDescription: "A Japanese-study chatbot supporting conversation, vocabulary, and grammar practice, with API integration.", coffeeDescription: "A JavaScript console exercise simulating selections, inventory, and transaction rules.",
+          contactTitle: "Let's connect", contactIntro: "I'm open to junior web development opportunities and conversations with development teams. You can also find me on GitHub and LinkedIn.", emailButton: "Send an email", resumeNote: "A résumé and detailed work history are available upon request.", formToggle: "Or use the contact form", formName: "Your name", formEmail: "Email address", formSubject: "Subject", formMessage: "Message", formSubmit: "Send message", backToTop: "Back to top ↑"
+        }
+      };
+      const updateLanguage = (language) => {
+        const selected = translations[language] ? language : "ja";
+        const data = translations[selected];
+        document.documentElement.lang = selected;
+        document.title = data.title;
+        document.querySelector('meta[name="description"]').setAttribute("content", data.description);
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const key = element.dataset.i18n;
+          if (Object.prototype.hasOwnProperty.call(data, key)) element.textContent = data[key];
+        });
+        document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+          const key = element.dataset.i18nAlt;
+          if (Object.prototype.hasOwnProperty.call(data, key)) element.alt = data[key];
+        });
+        document.querySelectorAll("[data-language]").forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.language === selected));
+        });
+        try { window.localStorage.setItem("portfolio-language", selected); } catch (_) { /* storage may be disabled */ }
+      };
+      document.querySelectorAll("[data-language]").forEach((button) => {
+        button.addEventListener("click", () => updateLanguage(button.dataset.language));
+      });
+      let savedLanguage = "ja";
+      try { savedLanguage = window.localStorage.getItem("portfolio-language") || "ja"; } catch (_) { /* storage may be disabled */ }
+      updateLanguage(savedLanguage);
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
